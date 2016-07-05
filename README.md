@@ -10,6 +10,6 @@
  
 用法:
 
- * 需要expect和ssh-copy-id命令
- * 修改conf.sh中的WORKERS_HOSTNAME,添加需要建立无密钥访问的hostname
- * 修改tools/ssh-expect.sh中的command,用来在远程服务器上执行以便检查是否已经建立了无密钥登录机制
+ 1. 需要expect和ssh-copy-id命令
+ 2. 修改conf.sh中的WORKERS_HOSTNAME,添加需要建立无密钥访问的hostname
+ 3. 修改tools/ssh-expect.sh中的command,用来在远程服务器上执行以便检查是否已经建立了无密钥登录机制
